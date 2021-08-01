@@ -1,6 +1,6 @@
 body {
     display: flex;
-    background: rgb(219, 219, 219);
+    background: rgb(142, 130, 255);
     height: 90vh;
     justify-content: center;
     align-items: center;
@@ -17,8 +17,9 @@ a {
     height: 40px;
     background: rgb(99, 12, 12);
     text-align: center;
+    font: normal 10pt monospace;
     line-height: 40px;
     color: white;
     text-decoration: none;
-    box-shadow: 1px 1px 3px black;
+    box-shadow: 1px 1px 5px black;
 }
