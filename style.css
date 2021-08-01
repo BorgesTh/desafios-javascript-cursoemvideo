@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: grid;
+    gap: 15px;
+    width: 220px;
+    height: 210px;
+}
+
+a {
+    height: 40px;
+    background: rgb(99, 12, 12);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 3px black;
+}

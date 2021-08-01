@@ -1,0 +1,71 @@
+body {
+    background: rgb(250, 115, 115);
+    padding: 30px;
+    font: normal 15pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 1px 1px 3px black;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+div#forms {
+    display: grid;
+    grid-template-columns: 60px 100px auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "a b x" "c d x" "e f x";
+    gap: 5px;
+}
+
+.start {
+    grid-area: a;
+}
+
+#start {
+    grid-area: b;
+}
+
+.end {
+    grid-area: c;
+}
+
+#end {
+    grid-area: d;
+}
+
+.step {
+    grid-area: e;
+}
+
+#step {
+    grid-area: f;
+}
+
+button {
+    grid-area: x;
+}
+
+div > p {
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

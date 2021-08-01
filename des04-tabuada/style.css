@@ -1,0 +1,60 @@
+body {
+    background: rgb(111, 147, 247);
+    font: normal 15pt arial;
+    user-select: none;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 1px 1px 3px black;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 160px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+div#data {
+    display: grid;
+}
+
+input {
+    width: 150px;
+}
+
+select#tabuada {
+    width: 160px;
+    height: 185px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 8px 5px 0px;
+    box-shadow: 0px 0px 2px black;
+    overflow-y: scroll;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+select {
+    width: 50px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
