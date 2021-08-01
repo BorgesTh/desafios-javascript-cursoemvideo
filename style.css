@@ -1,5 +1,6 @@
 body {
     display: flex;
+    background: rgb(219, 219, 219);
     height: 90vh;
     justify-content: center;
     align-items: center;
