@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de valores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Valores</h1>
+    </header>
+    <section>
+        <div id="form">
+            <input type="number" name="num" id="txtnum" placeholder="Apenas números de 1 a 100">
+            <button onclick="adicionar()">Adicionar Valor</button>
+        </div>
+        <div id="selnum">
+            <select name="nums" id="selnums" size="10">
+
+            </select>
+            <button onclick="analisar()">Analisar Valores</button>
+        </div>
+        <div>
+            <p id="p1">Quantidade de números:</p>
+            <p id="p2">Maior valor obtido:</p>
+            <p id="p3">Menor valor obtido:</p>
+            <p id="p4">Soma de todos os valores:</p>
+            <p id="p5">Média entre todos os valores:</p>
+        </div>
+        <button onclick="limpar()">Limpar</button>
+    </section>
+    <footer>
+        <p>&copy; Curso em Vídeo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
