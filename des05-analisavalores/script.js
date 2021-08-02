@@ -8,11 +8,19 @@ for (let c = 1; c <= 5; c++) {
     res.push(document.querySelector(`p#p${c}`))
 }
 
+function inLista(n, l) {
+    if (l.indexOf(n) != -1) {
+        return true
+    } else {
+        return false
+    }
+}
+
 function adicionar() {
     selnums.textContent = ""
     let numF = Number(document.querySelector('input#txtnum').value)
-    if (numF < 1 || numF > 100) {
-        alert('[ERRO] Número inválido')
+    if (numF < 1 || numF > 100 || inLista(numF, numbers)) {
+        alert('[ERRO] Número inválido ou já adicionado')
     } else {
         optnumbers.push(`<option>Número ${numF} adicionado</option>`)
         numbers.push(numF)
