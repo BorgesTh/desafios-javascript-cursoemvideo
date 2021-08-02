@@ -36,7 +36,7 @@ function analisar() {
     limparesultados()
     numbers.sort()
     if (numbers.length == 0) {
-        alert('[ERRO] Falta de dados')
+        alert('[ERRO] Ausência de dados')
     } else {
         res[0].innerHTML += ` <span>${numbers.length}</span>`
         res[1].innerHTML += ` <span>${numbers[numbers.length - 1]}</span>`
